@@ -473,7 +473,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [GitHub](https://github.com/yourusername)
+- **Sarbajit Paul Bappy** - *Initial work* - [GitHub](https://github.com/SarbajitPbappy)
 
 ---
 
@@ -486,12 +486,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 📧 Contact
 
-For questions, collaborations, or inquiries, please open an issue on GitHub or contact:
-
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
 
 ---
 
