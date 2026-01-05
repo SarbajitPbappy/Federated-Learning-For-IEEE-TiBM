@@ -1,0 +1,12 @@
+{
+  "dataset": "chest_xray",
+  "model": "mobilenetv3",
+  "num_classes": 2,
+  "test_accuracy": 0.7636505460218409,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Chest_Xray/mobilenetv3_Chest_Xray_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Chest_Xray/mobilenetv3_Chest_Xray_final.h5",
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.0
+  }
+}

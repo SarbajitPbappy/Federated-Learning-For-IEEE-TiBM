@@ -1,0 +1,4 @@
+Model,Wins,Losses,Ties,Win_Rate_%
+mobilenetv3,6,0,0,100.0
+resnet50v2,5,0,1,83.3
+vgg19,6,0,0,100.0

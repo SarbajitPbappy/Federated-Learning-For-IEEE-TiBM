@@ -1,0 +1,12 @@
+{
+  "dataset": "chest_xray",
+  "model": "vgg19",
+  "num_classes": 2,
+  "test_accuracy": 0.9266770670826833,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Chest_Xray/vgg19_Chest_Xray_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Chest_Xray/vgg19_Chest_Xray_final.h5",
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.0
+  }
+}

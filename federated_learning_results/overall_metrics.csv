@@ -1,0 +1,2 @@
+Method,Weighted_Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,Training_Time_Minutes,Best_Val_Accuracy,Total_Samples
+FedAvg,0.9635274904735982,0.9662136606832478,0.9635274904735982,0.9635030687882901,260.82930388053256,0.9453616042931875,20207

@@ -1,0 +1,13 @@
+{
+  "dataset": "Lymphoma",
+  "model": "vgg19",
+  "num_classes": 3,
+  "test_accuracy": 0.5362962962962963,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Lymphoma/vgg19_Lymphoma_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Lymphoma/vgg19_Lymphoma_final.h5",
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0
+  }
+}

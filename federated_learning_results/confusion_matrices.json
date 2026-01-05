@@ -1,0 +1,184 @@
+{
+  "Kidney_Cancer": {
+    "matrix": [
+      [
+        1499,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        1489,
+        0,
+        14
+      ],
+      [
+        38,
+        0,
+        1492,
+        20
+      ],
+      [
+        6,
+        0,
+        0,
+        1531
+      ]
+    ],
+    "class_names": [
+      "Cyst",
+      "Normal",
+      "Stone",
+      "Tumor"
+    ],
+    "accuracy": 0.9865419333661579
+  },
+  "Leukemia": {
+    "matrix": [
+      [
+        446,
+        4,
+        6,
+        0
+      ],
+      [
+        1,
+        445,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        442,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        454
+      ]
+    ],
+    "class_names": [
+      "lu_Benign",
+      "lu_Early",
+      "lu_Pre",
+      "lu_Pro"
+    ],
+    "accuracy": 0.9927777777777778
+  },
+  "Lung_Colon_Cancer": {
+    "matrix": [
+      [
+        1479,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        1499,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1517,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1497
+      ]
+    ],
+    "class_names": [
+      "Colon_Adenocarcinoma",
+      "Colon_Benign_Tissue",
+      "Lung-Benign_Tissue",
+      "Lung_Adenocarcinoma"
+    ],
+    "accuracy": 0.9986666666666667
+  },
+  "Lymphoma": {
+    "matrix": [
+      [
+        328,
+        10,
+        109
+      ],
+      [
+        7,
+        389,
+        49
+      ],
+      [
+        50,
+        18,
+        390
+      ]
+    ],
+    "class_names": [
+      "CLL",
+      "FL",
+      "MCL"
+    ],
+    "accuracy": 0.82
+  },
+  "Brain_Tumor": {
+    "matrix": [
+      [
+        576,
+        37,
+        1,
+        0
+      ],
+      [
+        47,
+        493,
+        31,
+        1
+      ],
+      [
+        2,
+        2,
+        569,
+        0
+      ],
+      [
+        34,
+        138,
+        13,
+        456
+      ]
+    ],
+    "class_names": [
+      "bt_glioma",
+      "bt_meningioma",
+      "bt_notumor",
+      "bt_pituitary"
+    ],
+    "accuracy": 0.8725
+  },
+  "Chest_Xray": {
+    "matrix": [
+      [
+        1195,
+        77
+      ],
+      [
+        8,
+        1284
+      ]
+    ],
+    "class_names": [
+      "Normal",
+      "Pneumonia"
+    ],
+    "accuracy": 0.9668486739469578
+  }
+}

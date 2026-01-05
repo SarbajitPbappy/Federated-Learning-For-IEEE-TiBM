@@ -1,0 +1,203 @@
+{
+  "ANOVA": {
+    "f_statistic": 20.562421278364077,
+    "p_value": 8.087157837965779e-07,
+    "significant": true
+  },
+  "Levene_Test": {
+    "statistic": 0.2083370169938785,
+    "p_value": 0.8896194006668401,
+    "equal_variance": true
+  },
+  "Pairwise_Tests": [
+    {
+      "Method1": "FedAvg",
+      "Method2": "FedProx",
+      "Mean_Diff": 0.04638651297205972,
+      "Std_Diff": 0.019677760657730026,
+      "Cohen_d": 2.357306493299464,
+      "t_stat": 5.774198075933219,
+      "p_value": 0.0011784464800077745,
+      "Significant": "Yes"
+    },
+    {
+      "Method1": "FedAvg",
+      "Method2": "FedBN",
+      "Mean_Diff": 0.09436522211347308,
+      "Std_Diff": 0.05460684653337849,
+      "Cohen_d": 1.7280840792700278,
+      "t_stat": 4.232924226838846,
+      "p_value": 0.00548240757281621,
+      "Significant": "Yes"
+    },
+    {
+      "Method1": "FedAvg",
+      "Method2": "FedMAM",
+      "Mean_Diff": -0.012748330831527679,
+      "Std_Diff": 0.016758028484768067,
+      "Cohen_d": -0.7607297507051658,
+      "t_stat": -1.8633997213823075,
+      "p_value": 0.11169613558944695,
+      "Significant": "No"
+    },
+    {
+      "Method1": "FedProx",
+      "Method2": "FedBN",
+      "Mean_Diff": 0.04797870914141335,
+      "Std_Diff": 0.04722853649661536,
+      "Cohen_d": 1.0158838850501275,
+      "t_stat": 2.4883971562890124,
+      "p_value": 0.04726468955929471,
+      "Significant": "Yes"
+    },
+    {
+      "Method1": "FedProx",
+      "Method2": "FedMAM",
+      "Mean_Diff": -0.059134843803587404,
+      "Std_Diff": 0.017690993270485084,
+      "Cohen_d": -3.342652552033102,
+      "t_stat": -8.187793139893097,
+      "p_value": 0.00017884502164263835,
+      "Significant": "Yes"
+    },
+    {
+      "Method1": "FedBN",
+      "Method2": "FedMAM",
+      "Mean_Diff": -0.10711355294500076,
+      "Std_Diff": 0.05408004021934887,
+      "Cohen_d": -1.9806485444638677,
+      "t_stat": -4.851578293722675,
+      "p_value": 0.0028470839456367428,
+      "Significant": "Yes"
+    }
+  ],
+  "Normality_Tests": [
+    {
+      "Method": "FedAvg",
+      "W_Statistic": 0.8168086575068756,
+      "p_value": 0.05982186943445306,
+      "Normal": "Yes"
+    },
+    {
+      "Method": "FedProx",
+      "W_Statistic": 0.9378399937354339,
+      "p_value": 0.6193482753570138,
+      "Normal": "Yes"
+    },
+    {
+      "Method": "FedBN",
+      "W_Statistic": 0.9396521851902586,
+      "p_value": 0.6355891430474198,
+      "Normal": "Yes"
+    },
+    {
+      "Method": "FedMAM",
+      "W_Statistic": 0.7149901221754915,
+      "p_value": 0.0053911963471566585,
+      "Normal": "No"
+    }
+  ],
+  "Stability": [
+    {
+      "Method": "FedAvg",
+      "Variance": 0.0007636176338753257,
+      "Std_Dev": 0.027633632296086695,
+      "CV_Percent": 3.002402527007929
+    },
+    {
+      "Method": "FedProx",
+      "Variance": 0.0003572314674572563,
+      "Std_Dev": 0.018900567913617206,
+      "CV_Percent": 2.162542607091726
+    },
+    {
+      "Method": "FedBN",
+      "Variance": 0.0009705215983821105,
+      "Std_Dev": 0.031153195636757884,
+      "CV_Percent": 3.7714876095403227
+    },
+    {
+      "Method": "FedMAM",
+      "Variance": 0.0006798227108836409,
+      "Std_Dev": 0.02607341003558301,
+      "CV_Percent": 2.7941814188441816
+    }
+  ],
+  "Confidence_Intervals": [
+    {
+      "Method": "FedAvg",
+      "Mean": 0.9203839940684182,
+      "Std_Error": 0.011281383144184386,
+      "CI_95_Lower": 0.8927794439556064,
+      "CI_95_Upper": 0.94798854418123,
+      "CI_Width": 0.05520910022562374
+    },
+    {
+      "Method": "FedProx",
+      "Mean": 0.8739974810963586,
+      "Std_Error": 0.007716124539530366,
+      "CI_95_Lower": 0.8551168045156712,
+      "CI_95_Upper": 0.8928781576770459,
+      "CI_Width": 0.037761353161374744
+    },
+    {
+      "Method": "FedBN",
+      "Mean": 0.826018771954945,
+      "Std_Error": 0.012718238861192681,
+      "CI_95_Lower": 0.7948983625598002,
+      "CI_95_Upper": 0.8571391813500898,
+      "CI_Width": 0.06224081879028974
+    },
+    {
+      "Method": "FedMAM",
+      "Mean": 0.933132324899946,
+      "Std_Error": 0.010644425073590093,
+      "CI_95_Lower": 0.9070863550387538,
+      "CI_95_Upper": 0.9591782947611383,
+      "CI_Width": 0.05209193972238452
+    }
+  ],
+  "Summary": [
+    {
+      "Method": "FedAvg",
+      "Final_Val_Acc": 0.9421572585900625,
+      "Best_Val_Acc": 0.9453616042931875,
+      "Best_Round": 2,
+      "Mean_Val_Acc": 0.9203839940684182,
+      "Std_Val_Acc": 0.027633632296086695,
+      "Variance": 0.0007636176338753257
+    },
+    {
+      "Method": "FedProx",
+      "Final_Val_Acc": 0.872755746046702,
+      "Best_Val_Acc": 0.8984917998313904,
+      "Best_Round": 2,
+      "Mean_Val_Acc": 0.8739974810963586,
+      "Std_Val_Acc": 0.018900567913617206,
+      "Variance": 0.0003572314674572563
+    },
+    {
+      "Method": "FedBN",
+      "Final_Val_Acc": 0.8430163760979971,
+      "Best_Val_Acc": 0.8880094488461813,
+      "Best_Round": 1,
+      "Mean_Val_Acc": 0.826018771954945,
+      "Std_Val_Acc": 0.031153195636757884,
+      "Variance": 0.0009705215983821105
+    },
+    {
+      "Method": "FedMAM",
+      "Final_Val_Acc": 0.9503929416338602,
+      "Best_Val_Acc": 0.9522287646929423,
+      "Best_Round": 5,
+      "Mean_Val_Acc": 0.933132324899946,
+      "Std_Val_Acc": 0.02607341003558301,
+      "Variance": 0.0006798227108836409
+    }
+  ],
+  "Winners": {
+    "Best_Final_Accuracy": "FedMAM",
+    "Best_Mean_Accuracy": "FedMAM",
+    "Most_Stable": "FedProx"
+  }
+}

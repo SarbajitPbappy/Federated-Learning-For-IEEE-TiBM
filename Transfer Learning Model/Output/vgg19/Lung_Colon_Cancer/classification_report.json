@@ -1,0 +1,39 @@
+{
+  "Colon_Adenocarcinoma": {
+    "precision": 0.9683377308707124,
+    "recall": 0.9786666666666667,
+    "f1-score": 0.9734748010610079,
+    "support": 750.0
+  },
+  "Colon_Benign_Tissue": {
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1-score": 0.98989898989899,
+    "support": 750.0
+  },
+  "Lung-Benign_Tissue": {
+    "precision": 0.979002624671916,
+    "recall": 0.9946666666666667,
+    "f1-score": 0.9867724867724867,
+    "support": 750.0
+  },
+  "Lung_Adenocarcinoma": {
+    "precision": 0.9718120805369127,
+    "recall": 0.9653333333333334,
+    "f1-score": 0.968561872909699,
+    "support": 750.0
+  },
+  "accuracy": 0.9796666666666667,
+  "macro avg": {
+    "precision": 0.9797881090198852,
+    "recall": 0.9796666666666667,
+    "f1-score": 0.9796770376605458,
+    "support": 3000.0
+  },
+  "weighted avg": {
+    "precision": 0.9797881090198852,
+    "recall": 0.9796666666666667,
+    "f1-score": 0.979677037660546,
+    "support": 3000.0
+  }
+}

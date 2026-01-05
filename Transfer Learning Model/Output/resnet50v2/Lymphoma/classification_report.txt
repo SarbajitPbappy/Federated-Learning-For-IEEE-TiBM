@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+         CLL       0.82      0.82      0.82       225
+          FL       0.78      0.81      0.80       225
+         MCL       0.76      0.72      0.74       225
+
+    accuracy                           0.79       675
+   macro avg       0.79      0.79      0.79       675
+weighted avg       0.79      0.79      0.79       675

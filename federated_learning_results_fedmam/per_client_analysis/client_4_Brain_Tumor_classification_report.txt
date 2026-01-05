@@ -1,0 +1,20 @@
+CLIENT 4: Brain_Tumor
+================================================================================
+
+Dataset Path: /Volumes/Sarbajit/Model Optimization/Data/Augmented/Brain Tumor
+Number of Classes: 4
+Class Names: ['bt_glioma', 'bt_meningioma', 'bt_notumor', 'bt_pituitary']
+Validation Samples: 2,400
+
+Classification Report:
+--------------------------------------------------------------------------------
+               precision    recall  f1-score   support
+
+    bt_glioma     0.9150    0.9121    0.9135       614
+bt_meningioma     0.7685    0.9283    0.8409       572
+   bt_notumor     1.0000    0.8342    0.9096       573
+ bt_pituitary     0.9725    0.9392    0.9556       641
+
+     accuracy                         0.9046      2400
+    macro avg     0.9140    0.9034    0.9049      2400
+ weighted avg     0.9157    0.9046    0.9065      2400

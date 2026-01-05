@@ -1,0 +1,5 @@
+Model,Coefficient_of_Variation_%
+CustomCNN,1.88
+resnet50v2,8.26
+mobilenetv3,18.91
+vgg19,19.49

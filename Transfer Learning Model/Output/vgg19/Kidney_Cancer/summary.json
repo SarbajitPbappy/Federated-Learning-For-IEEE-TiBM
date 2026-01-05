@@ -1,0 +1,14 @@
+{
+  "dataset": "Kidney Cancer",
+  "model": "vgg19",
+  "num_classes": 4,
+  "test_accuracy": 0.7971775516901871,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Kidney_Cancer/vgg19_Kidney_Cancer_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Kidney_Cancer/vgg19_Kidney_Cancer_final.h5",
+  "class_weights": {
+    "0": 0.9999296567248172,
+    "1": 0.9999296567248172,
+    "2": 1.000211089220377,
+    "3": 0.9999296567248172
+  }
+}

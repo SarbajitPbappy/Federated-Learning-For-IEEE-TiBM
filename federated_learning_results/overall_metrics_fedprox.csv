@@ -1,0 +1,2 @@
+Method,Mu,Weighted_Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,Training_Time_Minutes,Best_Val_Accuracy,Total_Samples
+FedProx,0.01,0.889295788588113,0.9078841517812535,0.889295788588113,0.8858987503735335,595.9526594837506,0.8984917998313904,20207

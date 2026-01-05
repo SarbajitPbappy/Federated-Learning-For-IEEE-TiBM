@@ -1,0 +1,71 @@
+{
+  "paired_t_tests": {
+    "FedProx_vs_FedAvg": {
+      "mean_improvement": -0.04638651297205972,
+      "std_improvement": 0.019677760657730026,
+      "t_statistic": -5.774198075933219,
+      "p_value": 0.0011784464800077745,
+      "significant": true
+    },
+    "FedBN_vs_FedAvg": {
+      "mean_improvement": -0.09436522211347308,
+      "std_improvement": 0.05460684653337849,
+      "t_statistic": -4.232924226838846,
+      "p_value": 0.00548240757281621,
+      "significant": true
+    },
+    "FedBN_vs_FedProx": {
+      "mean_improvement": -0.04797870914141335,
+      "std_improvement": 0.04722853649661536,
+      "t_statistic": -2.4883971562890124,
+      "p_value": 0.04726468955929471,
+      "significant": true
+    }
+  },
+  "anova": {
+    "f_statistic": 19.162256021274796,
+    "p_value": 3.47676713821262e-05,
+    "significant": true
+  },
+  "descriptive_statistics": {
+    "FedAvg": {
+      "mean": 0.9203839940684182,
+      "std": 0.027633632296086695,
+      "variance": 0.0007636176338753257,
+      "min": 0.8610435624917349,
+      "max": 0.9453616042931875
+    },
+    "FedProx": {
+      "mean": 0.8739974810963586,
+      "std": 0.018900567913617206,
+      "variance": 0.0003572314674572563,
+      "min": 0.8361084461212158,
+      "max": 0.8984917998313904
+    },
+    "FedBN": {
+      "mean": 0.826018771954945,
+      "std": 0.031153195636757884,
+      "variance": 0.0009705215983821105,
+      "min": 0.7852850606044134,
+      "max": 0.8880094488461813
+    }
+  },
+  "normality_tests": {
+    "FedAvg": {
+      "w_statistic": 0.8168086575068756,
+      "p_value": 0.05982186943445306
+    },
+    "FedProx": {
+      "w_statistic": 0.9378399937354339,
+      "p_value": 0.6193482753570138
+    },
+    "FedBN": {
+      "w_statistic": 0.9396521851902586,
+      "p_value": 0.6355891430474198
+    }
+  },
+  "levene_test": {
+    "statistic": 0.3027162483666711,
+    "p_value": 0.7424968512447944
+  }
+}

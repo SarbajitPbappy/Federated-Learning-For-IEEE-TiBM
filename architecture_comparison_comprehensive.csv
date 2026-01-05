@@ -1,0 +1,5 @@
+Architecture,Year,Depth,Width_Max_Channels,FLOPs_G,Parameters_M,MACs_G,Memory_Parameters_MB,Memory_Activations_MB,Memory_Total_MB,FLOPs_per_Parameter,Energy_nJ,Receptive_Field_px,Conv_Type,Attention_Type,Attention_FLOPs_M,Attention_Params_K,Attention_Percent_FLOPs,Normalization,Activation,Pooling,Inference_ms_100GFLOPS,FLOPs_448x448_G,Key_Innovation
+Custom CNN (Ours),2025,4,256,1.975,0.524,0.988,2.1,11.68,13.78,3769.08,1.78,49,Standard 3x3,SE+CBAM+Self-Attn,494.9,125.7,25.06,BatchNorm,ReLU,MaxPool+GAP,19.75,13.708,Multi-scale attention
+VGG19,2014,19,512,19.6,143.7,9.8,574.8,56.3,631.1,136.4,17.64,212,Standard 3x3,None,0.0,0.0,0.0,None,ReLU,MaxPool,196.0,78.4,Deep homogeneous
+ResNet50v2,2016,50,2048,4.1,25.6,2.05,102.4,23.5,125.9,160.16,3.69,427,Standard+1x1,None,0.0,0.0,0.0,BatchNorm (pre-act),ReLU,MaxPool+GAP,41.0,16.4,Residual connections
+MobileNetV3-Large,2019,28,960,0.219,5.4,0.11,21.6,3.8,25.4,40.56,0.2,387,Depthwise Separable,SE,7.2,150.0,3.29,BatchNorm,h-swish+ReLU,GAP,2.19,0.876,NAS+depthwise+SE

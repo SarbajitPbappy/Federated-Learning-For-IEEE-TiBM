@@ -1,0 +1,20 @@
+CLIENT 1: Leukemia
+================================================================================
+
+Dataset Path: /Volumes/Sarbajit/Model Optimization/Data/Augmented/Leukemia
+Number of Classes: 4
+Class Names: ['lu_Benign', 'lu_Early', 'lu_Pre', 'lu_Pro']
+Validation Samples: 1,800
+
+Classification Report:
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+   lu_Benign     0.9956    0.9846    0.9901       456
+    lu_Early     0.9867    0.9978    0.9922       447
+      lu_Pre     1.0000    0.9865    0.9932       443
+      lu_Pro     0.9870    1.0000    0.9934       454
+
+    accuracy                         0.9922      1800
+   macro avg     0.9923    0.9922    0.9922      1800
+weighted avg     0.9923    0.9922    0.9922      1800

@@ -1,0 +1,20 @@
+CLIENT 2: Lung_Colon_Cancer
+================================================================================
+
+Dataset Path: /Volumes/Sarbajit/Model Optimization/Data/Augmented/Lung and Colon Cancer
+Number of Classes: 4
+Class Names: ['Colon_Adenocarcinoma', 'Colon_Benign_Tissue', 'Lung-Benign_Tissue', 'Lung_Adenocarcinoma']
+Validation Samples: 6,000
+
+Classification Report:
+--------------------------------------------------------------------------------
+                      precision    recall  f1-score   support
+
+Colon_Adenocarcinoma     0.9743    1.0000    0.9870      1479
+ Colon_Benign_Tissue     1.0000    0.9734    0.9865      1505
+  Lung-Benign_Tissue     0.9935    1.0000    0.9967      1517
+ Lung_Adenocarcinoma     1.0000    0.9940    0.9970      1499
+
+            accuracy                         0.9918      6000
+           macro avg     0.9919    0.9919    0.9918      6000
+        weighted avg     0.9920    0.9918    0.9918      6000

@@ -1,0 +1,4 @@
+Comparison,Cohens_d,Effect_Size
+CustomCNN vs mobilenetv3,2.9187,Large
+CustomCNN vs resnet50v2,0.9926,Large
+CustomCNN vs vgg19,1.2852,Large

@@ -1,0 +1,12 @@
+{
+  "dataset": "Breast Cancer",
+  "model": "mobilenetv3",
+  "num_classes": 2,
+  "test_accuracy": 0.628140703517588,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Breast_Cancer/mobilenetv3_Breast_Cancer_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Breast_Cancer/mobilenetv3_Breast_Cancer_final.h5",
+  "class_weights": {
+    "0": 1.000134698275862,
+    "1": 0.9998653380016159
+  }
+}

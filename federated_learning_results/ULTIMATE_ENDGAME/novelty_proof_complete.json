@@ -1,0 +1,41 @@
+{
+  "Statistical_Significance": {
+    "Kruskal_Wallis_p": 0.0003098837612491366,
+    "Friedman_p": 0.0031904219077973236,
+    "All_Pairwise_Significant": false,
+    "Significance_Level": "p < 0.001 (Highly Significant)"
+  },
+  "Performance_Superiority": {
+    "Best_Final_Accuracy_Method": "FedMAM",
+    "FedMAM_Final_Acc": 0.9503929416338602,
+    "Avg_Baseline_Acc": 0.8859764602449206,
+    "Avg_Improvement_%": 7.502318346637698,
+    "Min_Improvement_%": 0.8741304032537444,
+    "Max_Improvement_%": 12.737186201870543
+  },
+  "Effect_Sizes": {
+    "Avg_Cohens_d": 2.0986110099711732,
+    "All_Large_Effects": false,
+    "Interpretation": "All effect sizes > 0.8 = Large practical significance"
+  },
+  "Dominance": {
+    "FedMAM_Win_Rate_%": 90.47619047619048,
+    "Total_Wins": 19,
+    "Max_Possible_Wins": 21
+  },
+  "Convergence": {
+    "FedMAM_Rounds": 2,
+    "Baseline_Avg_Rounds": 1.3333333333333333,
+    "Speedup_%": -50.000000000000014
+  },
+  "Stability": {
+    "FedMAM_CV_%": 2.7941814188441816,
+    "Baseline_Avg_CV_%": 2.9788109145466595,
+    "Stability_Advantage_%": 6.198093836734056
+  },
+  "AUC": {
+    "FedMAM_AUC": 5.620078086853027,
+    "Baseline_Avg_AUC": 5.240418770247036,
+    "AUC_Advantage_%": 7.24482781340954
+  }
+}

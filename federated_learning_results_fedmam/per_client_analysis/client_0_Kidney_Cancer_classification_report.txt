@@ -1,0 +1,20 @@
+CLIENT 0: Kidney_Cancer
+================================================================================
+
+Dataset Path: /Volumes/Sarbajit/Model Optimization/Data/Augmented/Kidney Cancer
+Number of Classes: 4
+Class Names: ['Cyst', 'Normal', 'Stone', 'Tumor']
+Validation Samples: 6,092
+
+Classification Report:
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+        Cyst     0.9979    0.9601    0.9786      1503
+      Normal     0.9875    1.0000    0.9937      1503
+       Stone     0.9959    0.9471    0.9709      1550
+       Tumor     0.9309    1.0000    0.9642      1536
+
+    accuracy                         0.9767      6092
+   macro avg     0.9781    0.9768    0.9769      6092
+weighted avg     0.9780    0.9767    0.9768      6092

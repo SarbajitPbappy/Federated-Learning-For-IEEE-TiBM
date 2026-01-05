@@ -1,0 +1,18 @@
+CLIENT 5: Chest_Xray
+================================================================================
+
+Dataset Path: /Volumes/Sarbajit/Model Optimization/Data/Augmented/Chest_Xray
+Number of Classes: 2
+Class Names: ['Normal', 'Pneumonia']
+Validation Samples: 2,563
+
+Classification Report:
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+      Normal     0.9864    0.9717    0.9790      1271
+   Pneumonia     0.9725    0.9868    0.9796      1292
+
+    accuracy                         0.9793      2563
+   macro avg     0.9795    0.9793    0.9793      2563
+weighted avg     0.9794    0.9793    0.9793      2563

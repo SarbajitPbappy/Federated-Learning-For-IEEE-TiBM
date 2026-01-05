@@ -1,0 +1,7 @@
+Test,Comparison,t-statistic,p-value,Significance
+Paired_t-test,CustomCNN vs mobilenetv3,5.1479,0.003621,Very Significant
+Paired_t-test,CustomCNN vs resnet50v2,2.0107,0.100559,Significant
+Paired_t-test,CustomCNN vs vgg19,2.3375,0.066588,Significant
+Wilcoxon_signed-rank,CustomCNN vs mobilenetv3,0.0,0.031250,Significant
+Wilcoxon_signed-rank,CustomCNN vs resnet50v2,0.0,0.062500,Significant
+Wilcoxon_signed-rank,CustomCNN vs vgg19,0.0,0.031250,Significant

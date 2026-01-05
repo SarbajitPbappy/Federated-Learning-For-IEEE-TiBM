@@ -1,0 +1,13 @@
+{
+  "dataset": "Lymphoma",
+  "model": "mobilenetv3",
+  "num_classes": 3,
+  "test_accuracy": 0.5022222222222222,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Lymphoma/mobilenetv3_Lymphoma_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Lymphoma/mobilenetv3_Lymphoma_final.h5",
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0
+  }
+}

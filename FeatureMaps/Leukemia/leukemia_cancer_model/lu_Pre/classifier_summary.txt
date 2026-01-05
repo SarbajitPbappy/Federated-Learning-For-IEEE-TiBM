@@ -1,0 +1,5 @@
+layer: classifier
+shape: (1, 4)
+min: 0.24621668457984924
+max: 0.2514283359050751
+mean: 0.25

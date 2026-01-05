@@ -1,0 +1,10 @@
+dataset,mobilenetv3,resnet50v2,vgg19
+Brain_Tumor,77.00,89.25,82.00
+Breast_Cancer,62.81,86.93,80.21
+Chest_Xray,76.37,96.72,92.67
+Kidney_Cancer,79.52,96.16,79.72
+Leukemia,57.33,96.56,94.44
+Lung_Colon_Cancer,82.57,99.13,97.97
+Lymphoma,50.22,78.67,53.63
+Oral_Cancer,61.85,81.11,74.94
+Skin_Leison,54.72,93.58,85.66

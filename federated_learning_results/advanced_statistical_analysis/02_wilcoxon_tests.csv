@@ -1,0 +1,4 @@
+Comparison,W_Statistic,p_value,Significant
+FedMAM vs FedAvg,4.0,0.109375,False
+FedMAM vs FedProx,0.0,0.015625,True
+FedMAM vs FedBN,1.0,0.03125,True

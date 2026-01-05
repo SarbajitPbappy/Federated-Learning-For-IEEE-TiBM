@@ -1,0 +1,10 @@
+Model,Dataset,Accuracy
+CustomCNN,Brain_Tumor,96.08
+CustomCNN,Kidney_Cancer,99.93
+CustomCNN,Leukemia,99.89
+CustomCNN,Lung_Colon_Cancer,100
+CustomCNN,Lymphoma,97.04
+CustomCNN,Oral_Cancer,91.98
+CustomCNN,Chest_Xray,96.72
+CustomCNN,Breast_Cancer,94.97
+CustomCNN,Skin_Leison,93.06

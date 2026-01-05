@@ -1,0 +1,4 @@
+Comparison,Mean_Improvement_%,Relative_Improvement_%
+CustomCNN vs mobilenetv3,27.77,39.4
+CustomCNN vs resnet50v2,5.53,5.96
+CustomCNN vs vgg19,14.87,17.83

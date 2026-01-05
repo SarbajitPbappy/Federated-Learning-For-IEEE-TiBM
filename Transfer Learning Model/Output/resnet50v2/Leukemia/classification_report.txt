@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      Benign       0.93      0.96      0.95       225
+       Early       0.96      0.95      0.96       225
+         Pre       0.99      0.97      0.98       225
+         Pro       0.99      0.97      0.98       225
+
+    accuracy                           0.97       900
+   macro avg       0.97      0.97      0.97       900
+weighted avg       0.97      0.97      0.97       900

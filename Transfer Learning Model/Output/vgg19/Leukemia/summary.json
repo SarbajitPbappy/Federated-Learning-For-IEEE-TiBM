@@ -1,0 +1,14 @@
+{
+  "dataset": "Leukemia",
+  "model": "vgg19",
+  "num_classes": 4,
+  "test_accuracy": 0.9444444444444444,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Leukemia/vgg19_Leukemia_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Leukemia/vgg19_Leukemia_final.h5",
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  }
+}

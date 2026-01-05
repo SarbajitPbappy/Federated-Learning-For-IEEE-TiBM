@@ -1,0 +1,12 @@
+{
+  "dataset": "Breast Cancer",
+  "model": "vgg19",
+  "num_classes": 2,
+  "test_accuracy": 0.8021356783919598,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Breast_Cancer/vgg19_Breast_Cancer_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Breast_Cancer/vgg19_Breast_Cancer_final.h5",
+  "class_weights": {
+    "0": 1.000134698275862,
+    "1": 0.9998653380016159
+  }
+}

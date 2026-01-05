@@ -1,0 +1,5 @@
+,FedAvg,FedProx,FedBN,FedMAM
+FedAvg,0.0,7.0,6.0,1.0
+FedProx,0.0,0.0,6.0,0.0
+FedBN,1.0,1.0,0.0,1.0
+FedMAM,6.0,7.0,6.0,0.0

@@ -1,0 +1,4 @@
+Comparison,Wilcoxon_p,T_test_p,Significant
+FedMAM vs FedAvg,0.109375,0.11169613558944695,False
+FedMAM vs FedProx,0.015625,0.00017884502164263835,True
+FedMAM vs FedBN,0.03125,0.0028470839456367428,True

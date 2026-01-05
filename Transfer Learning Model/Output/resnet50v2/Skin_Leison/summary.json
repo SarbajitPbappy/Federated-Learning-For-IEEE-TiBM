@@ -1,0 +1,18 @@
+{
+  "dataset": "Skin Leison",
+  "model": "resnet50v2",
+  "num_classes": 8,
+  "test_accuracy": 0.9358490566037736,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/resnet50v2/Skin_Leison/resnet50v2_Skin_Leison_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/resnet50v2/Skin_Leison/resnet50v2_Skin_Leison_final.h5",
+  "class_weights": {
+    "0": 1.0422297297297298,
+    "1": 0.9640625,
+    "2": 1.0283333333333333,
+    "3": 1.195736434108527,
+    "4": 0.8764204545454546,
+    "5": 0.842896174863388,
+    "6": 0.9521604938271605,
+    "7": 1.2242063492063493
+  }
+}

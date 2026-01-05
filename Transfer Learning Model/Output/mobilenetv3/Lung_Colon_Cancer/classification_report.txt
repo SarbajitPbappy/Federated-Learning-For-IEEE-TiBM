@@ -1,0 +1,10 @@
+                      precision    recall  f1-score   support
+
+Colon_Adenocarcinoma       0.80      0.87      0.83       750
+ Colon_Benign_Tissue       0.90      0.81      0.86       750
+  Lung-Benign_Tissue       0.82      0.86      0.84       750
+ Lung_Adenocarcinoma       0.79      0.76      0.78       750
+
+            accuracy                           0.83      3000
+           macro avg       0.83      0.83      0.83      3000
+        weighted avg       0.83      0.83      0.83      3000

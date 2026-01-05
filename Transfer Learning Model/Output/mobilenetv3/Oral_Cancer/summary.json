@@ -1,0 +1,12 @@
+{
+  "dataset": "Oral Cancer",
+  "model": "mobilenetv3",
+  "num_classes": 2,
+  "test_accuracy": 0.6185185185185185,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Oral_Cancer/mobilenetv3_Oral_Cancer_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/mobilenetv3/Oral_Cancer/mobilenetv3_Oral_Cancer_final.h5",
+  "class_weights": {
+    "0": 1.0002648305084745,
+    "1": 0.9997353096876654
+  }
+}

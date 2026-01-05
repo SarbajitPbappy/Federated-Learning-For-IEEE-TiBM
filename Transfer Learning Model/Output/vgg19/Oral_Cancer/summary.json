@@ -1,0 +1,12 @@
+{
+  "dataset": "Oral Cancer",
+  "model": "vgg19",
+  "num_classes": 2,
+  "test_accuracy": 0.7493827160493827,
+  "best_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Oral_Cancer/vgg19_Oral_Cancer_best.h5",
+  "final_model": "/Volumes/Sarbajit/Model Optimization/Transfer Learning Model/Output/vgg19/Oral_Cancer/vgg19_Oral_Cancer_final.h5",
+  "class_weights": {
+    "0": 1.0002648305084745,
+    "1": 0.9997353096876654
+  }
+}
